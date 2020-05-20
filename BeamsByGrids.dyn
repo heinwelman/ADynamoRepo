@@ -16,7 +16,7 @@
   "Nodes": [
     {
       "ConcreteType": "DSRevitNodesUI.Categories, DSRevitNodesUI",
-      "SelectedIndex": 234,
+      "SelectedIndex": 233,
       "NodeType": "ExtensionNode",
       "Id": "610ef422b64c4d579f31f67084876923",
       "Inputs": [],
@@ -494,228 +494,6 @@
       ],
       "Replication": "Disabled",
       "Description": "Select a structural framing type in the active document"
-    },
-    {
-      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
-      "NodeType": "FunctionNode",
-      "FunctionSignature": "Revit.Elements.Element.Geometry",
-      "Id": "e9d6a130311848ff9117542b0043dc2e",
-      "Inputs": [
-        {
-          "Id": "7d05c7e73b9e487e820241e64212c511",
-          "Name": "element",
-          "Description": "Revit.Elements.Element",
-          "UsingDefaultValue": false,
-          "Level": 2,
-          "UseLevels": false,
-          "KeepListStructure": false
-        }
-      ],
-      "Outputs": [
-        {
-          "Id": "b573a19f44ff477f807c4c4417d0d0d8",
-          "Name": "var[]",
-          "Description": "var[]",
-          "UsingDefaultValue": false,
-          "Level": 2,
-          "UseLevels": false,
-          "KeepListStructure": false
-        }
-      ],
-      "Replication": "Auto",
-      "Description": "Get all of the Geometry associated with this object\n\nElement.Geometry ( ): var[]"
-    },
-    {
-      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
-      "NodeType": "FunctionNode",
-      "FunctionSignature": "Autodesk.DesignScript.Geometry.Point.ByCoordinates@double,double,double",
-      "Id": "1fe45b781fdd477ebbcc4cdceeb93712",
-      "Inputs": [
-        {
-          "Id": "f069bf11cace46b1a27c343157750777",
-          "Name": "x",
-          "Description": "double\nDefault value : 0",
-          "UsingDefaultValue": true,
-          "Level": 2,
-          "UseLevels": false,
-          "KeepListStructure": false
-        },
-        {
-          "Id": "68984171acc048cfb3f3bce01530e2f8",
-          "Name": "y",
-          "Description": "double\nDefault value : 0",
-          "UsingDefaultValue": true,
-          "Level": 2,
-          "UseLevels": false,
-          "KeepListStructure": false
-        },
-        {
-          "Id": "473e63b6239844d4a191ca59ba0963cc",
-          "Name": "z",
-          "Description": "double\nDefault value : 0",
-          "UsingDefaultValue": true,
-          "Level": 2,
-          "UseLevels": false,
-          "KeepListStructure": false
-        }
-      ],
-      "Outputs": [
-        {
-          "Id": "deff50fef79a47f8b63a573f29d7c175",
-          "Name": "Point",
-          "Description": "Point",
-          "UsingDefaultValue": false,
-          "Level": 2,
-          "UseLevels": false,
-          "KeepListStructure": false
-        }
-      ],
-      "Replication": "Auto",
-      "Description": "Form a Point given 3 cartesian coordinates\n\nPoint.ByCoordinates (x: double = 0, y: double = 0, z: double = 0): Point"
-    },
-    {
-      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
-      "NodeType": "FunctionNode",
-      "FunctionSignature": "Autodesk.DesignScript.Geometry.Point.ByCoordinates@double,double,double",
-      "Id": "f9e897200392485a94d6757f88c8b1c7",
-      "Inputs": [
-        {
-          "Id": "6310c7b1afc7410c8797116b3df71b51",
-          "Name": "x",
-          "Description": "double\nDefault value : 0",
-          "UsingDefaultValue": true,
-          "Level": 2,
-          "UseLevels": false,
-          "KeepListStructure": false
-        },
-        {
-          "Id": "bab2f223f43d4268945d35a41d2b8ee9",
-          "Name": "y",
-          "Description": "double\nDefault value : 0",
-          "UsingDefaultValue": true,
-          "Level": 2,
-          "UseLevels": false,
-          "KeepListStructure": false
-        },
-        {
-          "Id": "0e99de75487a49b1ab0418436a9010ae",
-          "Name": "z",
-          "Description": "double\nDefault value : 0",
-          "UsingDefaultValue": true,
-          "Level": 2,
-          "UseLevels": false,
-          "KeepListStructure": false
-        }
-      ],
-      "Outputs": [
-        {
-          "Id": "f3932a2c47674f08ab2945e238ba32bf",
-          "Name": "Point",
-          "Description": "Point",
-          "UsingDefaultValue": false,
-          "Level": 2,
-          "UseLevels": false,
-          "KeepListStructure": false
-        }
-      ],
-      "Replication": "Auto",
-      "Description": "Form a Point given 3 cartesian coordinates\n\nPoint.ByCoordinates (x: double = 0, y: double = 0, z: double = 0): Point"
-    },
-    {
-      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
-      "NodeType": "FunctionNode",
-      "FunctionSignature": "Autodesk.DesignScript.Geometry.Point.ByCoordinates@double,double,double",
-      "Id": "5366d2f44aa84f35989b2b2a9d1fc2a0",
-      "Inputs": [
-        {
-          "Id": "246a963063c5421fac8555ddcd5ce02d",
-          "Name": "x",
-          "Description": "double\nDefault value : 0",
-          "UsingDefaultValue": true,
-          "Level": 2,
-          "UseLevels": false,
-          "KeepListStructure": false
-        },
-        {
-          "Id": "ba52c22e7b374ba2b4a4c7538a9f633b",
-          "Name": "y",
-          "Description": "double\nDefault value : 0",
-          "UsingDefaultValue": true,
-          "Level": 2,
-          "UseLevels": false,
-          "KeepListStructure": false
-        },
-        {
-          "Id": "492ed6ed090544768cf9743505cf2c93",
-          "Name": "z",
-          "Description": "double\nDefault value : 0",
-          "UsingDefaultValue": true,
-          "Level": 2,
-          "UseLevels": false,
-          "KeepListStructure": false
-        }
-      ],
-      "Outputs": [
-        {
-          "Id": "b06ccca7744d45e38210f7df7880a50a",
-          "Name": "Point",
-          "Description": "Point",
-          "UsingDefaultValue": false,
-          "Level": 2,
-          "UseLevels": false,
-          "KeepListStructure": false
-        }
-      ],
-      "Replication": "Auto",
-      "Description": "Form a Point given 3 cartesian coordinates\n\nPoint.ByCoordinates (x: double = 0, y: double = 0, z: double = 0): Point"
-    },
-    {
-      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
-      "NodeType": "FunctionNode",
-      "FunctionSignature": "Autodesk.DesignScript.Geometry.Point.ByCoordinates@double,double,double",
-      "Id": "80d47b8d56e4421aa19b2766f58369ef",
-      "Inputs": [
-        {
-          "Id": "26a4aa4ced3641d6a234d7fc31ef9eec",
-          "Name": "x",
-          "Description": "double\nDefault value : 0",
-          "UsingDefaultValue": true,
-          "Level": 2,
-          "UseLevels": false,
-          "KeepListStructure": false
-        },
-        {
-          "Id": "29d44a88a8b048d5984057cd517ad550",
-          "Name": "y",
-          "Description": "double\nDefault value : 0",
-          "UsingDefaultValue": true,
-          "Level": 2,
-          "UseLevels": false,
-          "KeepListStructure": false
-        },
-        {
-          "Id": "8fba4e8c4aa54eba89ff1ae516ee804c",
-          "Name": "z",
-          "Description": "double\nDefault value : 0",
-          "UsingDefaultValue": true,
-          "Level": 2,
-          "UseLevels": false,
-          "KeepListStructure": false
-        }
-      ],
-      "Outputs": [
-        {
-          "Id": "1cad6c535f7e4d30a9fd108351158441",
-          "Name": "Point",
-          "Description": "Point",
-          "UsingDefaultValue": false,
-          "Level": 2,
-          "UseLevels": false,
-          "KeepListStructure": false
-        }
-      ],
-      "Replication": "Auto",
-      "Description": "Form a Point given 3 cartesian coordinates\n\nPoint.ByCoordinates (x: double = 0, y: double = 0, z: double = 0): Point"
     }
   ],
   "Connectors": [
@@ -785,11 +563,6 @@
       "Id": "c39ef50576a74a688205a9d9c4b2baa0"
     },
     {
-      "Start": "dc3ed56cc0bc46d2a389b5dadda0652a",
-      "End": "7d05c7e73b9e487e820241e64212c511",
-      "Id": "b12d0ef4192a444f99b52a77cb3e0e30"
-    },
-    {
       "Start": "7ca70610c8764a0c87d439175e1a6724",
       "End": "87bf57968553462885d5c01745e01242",
       "Id": "9de3cf3d6c7541cfb95790ab047983ca"
@@ -836,8 +609,8 @@
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
         "Excluded": false,
-        "X": 568.25474333349848,
-        "Y": -67.52565636155316
+        "X": 521.40513708394724,
+        "Y": -83.142191778070242
       },
       {
         "ShowGeometry": false,
@@ -978,56 +751,6 @@
         "Excluded": false,
         "X": 585.79722663695259,
         "Y": 1023.1491991783973
-      },
-      {
-        "ShowGeometry": true,
-        "Name": "Element.Geometry",
-        "Id": "e9d6a130311848ff9117542b0043dc2e",
-        "IsSetAsInput": false,
-        "IsSetAsOutput": false,
-        "Excluded": false,
-        "X": 1431.2313492320668,
-        "Y": 780.99726124494987
-      },
-      {
-        "ShowGeometry": true,
-        "Name": "Point.ByCoordinates",
-        "Id": "1fe45b781fdd477ebbcc4cdceeb93712",
-        "IsSetAsInput": false,
-        "IsSetAsOutput": false,
-        "Excluded": false,
-        "X": 1616.0652418444934,
-        "Y": 617.95928349551934
-      },
-      {
-        "ShowGeometry": true,
-        "Name": "Point.ByCoordinates",
-        "Id": "f9e897200392485a94d6757f88c8b1c7",
-        "IsSetAsInput": false,
-        "IsSetAsOutput": false,
-        "Excluded": false,
-        "X": 1794.0652418444934,
-        "Y": 637.95928349551934
-      },
-      {
-        "ShowGeometry": true,
-        "Name": "Point.ByCoordinates",
-        "Id": "5366d2f44aa84f35989b2b2a9d1fc2a0",
-        "IsSetAsInput": false,
-        "IsSetAsOutput": false,
-        "Excluded": false,
-        "X": 1982.0652418444934,
-        "Y": 667.95928349551934
-      },
-      {
-        "ShowGeometry": true,
-        "Name": "Point.ByCoordinates",
-        "Id": "80d47b8d56e4421aa19b2766f58369ef",
-        "IsSetAsInput": false,
-        "IsSetAsOutput": false,
-        "Excluded": false,
-        "X": 2180.0652418444934,
-        "Y": 707.95928349551934
       }
     ],
     "Annotations": [
@@ -1039,13 +762,13 @@
           "b4f2b1972c30430595d4c0d59ca77b5f",
           "e7581a10887f4b7baaf0b5ca6abdfdf1"
         ],
-        "Left": 558.25474333349848,
-        "Top": -121.34974110430664,
-        "Width": 661.76505296422079,
-        "Height": 146.82408474275348,
+        "Left": 511.40513708394724,
+        "Top": -136.14219177807024,
+        "Width": 708.614659213772,
+        "Height": 161.61653541651708,
         "FontSize": 36.0,
-        "InitialTop": -68.349741104306645,
-        "InitialHeight": 145.82408474275348,
+        "InitialTop": -83.142191778070242,
+        "InitialHeight": 160.61653541651708,
         "TextblockHeight": 43.0,
         "Background": "#FFFF7BAC"
       },
@@ -1105,45 +828,10 @@
         "InitialHeight": 377.37323988169214,
         "TextblockHeight": 43.0,
         "Background": "#FF71C6A8"
-      },
-      {
-        "Id": "692da1989fc74cb8872a21975b06e12d",
-        "Title": "Wooho",
-        "Nodes": [
-          "e9d6a130311848ff9117542b0043dc2e",
-          "1fe45b781fdd477ebbcc4cdceeb93712",
-          "f9e897200392485a94d6757f88c8b1c7",
-          "5366d2f44aa84f35989b2b2a9d1fc2a0",
-          "80d47b8d56e4421aa19b2766f58369ef",
-          "d28a9059320846d584c1ac216230b887"
-        ],
-        "Left": 1421.2313492320668,
-        "Top": 564.95928349551934,
-        "Width": 926.83389261242655,
-        "Height": 400.97480277438717,
-        "FontSize": 36.0,
-        "InitialTop": 617.95928349551934,
-        "InitialHeight": 377.97480277438717,
-        "TextblockHeight": 43.0,
-        "Background": "#FFC1D676"
-      },
-      {
-        "Id": "d28a9059320846d584c1ac216230b887",
-        "Title": "New Note",
-        "Nodes": [],
-        "Left": 1627.663798209644,
-        "Top": 921.93408626990652,
-        "Width": 0.0,
-        "Height": 0.0,
-        "FontSize": 36.0,
-        "InitialTop": 0.0,
-        "InitialHeight": 0.0,
-        "TextblockHeight": 0.0,
-        "Background": "#FFC1D676"
       }
     ],
-    "X": -363.35812705404038,
-    "Y": 24.862521159634412,
-    "Zoom": 0.57631220753874779
+    "X": -245.60676497288887,
+    "Y": 113.60857900781397,
+    "Zoom": 0.45767323201002952
   }
 }
