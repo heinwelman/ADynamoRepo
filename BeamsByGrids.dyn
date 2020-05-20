@@ -17,6 +17,7 @@
     {
       "ConcreteType": "DSRevitNodesUI.Categories, DSRevitNodesUI",
       "SelectedIndex": 233,
+      "SelectedString": "OST_GridHeads",
       "NodeType": "ExtensionNode",
       "Id": "610ef422b64c4d579f31f67084876923",
       "Inputs": [],
@@ -458,6 +459,7 @@
     {
       "ConcreteType": "DSRevitNodesUI.Levels, DSRevitNodesUI",
       "SelectedIndex": 0,
+      "SelectedString": "Level 1",
       "NodeType": "ExtensionNode",
       "Id": "03a929c691ba49b89fdb672eabcdd3ff",
       "Inputs": [],
@@ -478,6 +480,7 @@
     {
       "ConcreteType": "DSRevitNodesUI.StructuralFramingTypes, DSRevitNodesUI",
       "SelectedIndex": 0,
+      "SelectedString": "UB305x165x40",
       "NodeType": "ExtensionNode",
       "Id": "dd711b46f78b4dbe92726ada7827680d",
       "Inputs": [],
@@ -579,13 +582,14 @@
     }
   ],
   "Dependencies": [],
+  "NodeLibraryDependencies": [],
   "Bindings": [],
   "View": {
     "Dynamo": {
       "ScaleFactor": 1.0,
       "HasRunWithoutCrash": true,
       "IsVisibleInDynamoLibrary": true,
-      "Version": "2.0.3.8810",
+      "Version": "2.3.0.5885",
       "RunType": "Manual",
       "RunPeriod": "1000"
     },
@@ -830,8 +834,8 @@
         "Background": "#FF71C6A8"
       }
     ],
-    "X": -245.60676497288887,
-    "Y": 113.60857900781397,
-    "Zoom": 0.45767323201002952
+    "X": -212.95971879108731,
+    "Y": 35.578995577315482,
+    "Zoom": 0.70890277345625274
   }
 }
